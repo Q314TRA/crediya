@@ -1,0 +1,32 @@
+[
+    {
+        "id": "super-demo-partner",
+        "image": "../images/partners/citi_4.png",
+        "hover_image": "../images/partners/citi_4.png",
+        "path": "/"
+    },
+    {
+        "id": "demo-logo-partner",
+        "image": "../images/partners/bbva_2.png",
+        "hover_image": "../images/partners/bbva_2.png",
+        "path": "/"
+    },
+    {
+        "id": "demo-brand-logo-partner",
+        "image": "../images/partners/confiar-coop_2.png",
+        "hover_image": "../images/partners/confiar-coop_2.png",
+        "path": "/"
+    },
+    {
+        "id": "demo-brand-logo-2-partner",
+        "image": "../images/partners/cotrafa_2.png",
+        "hover_image": "../images/partners/cotrafa_2.png",
+        "path": "/"
+    },
+    {
+        "id": "brand-logo-partner",
+        "image": "../images/partners/cfa_2.png",
+        "hover_image": "../images/partners/cfa_2.png",
+        "path": "/"
+    }
+]

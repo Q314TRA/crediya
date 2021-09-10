@@ -1,0 +1,33 @@
+[
+    {
+        "text": "Servicios",
+        "link": "/",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Simulador de creditos",
+                "link": "/index-infotechno"
+            },
+            {
+                "text": "Asesorias",
+                "link": "/index-appointment"
+            },
+            {
+                "text": "Vinculate a nosotros",
+                "link": "/index-processing"
+            }
+        ]
+    },
+    {
+        "text": "Financieras",
+        "link": "/about-us"
+    },
+    {
+        "text": "Como elegir una financiera",
+        "link": "/it-services"
+    },
+    {
+        "text": "Contáctanos",
+        "link": "/case-studies"
+    }
+]
