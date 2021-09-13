@@ -2,34 +2,52 @@ import * as React from "react";
 import Seo from "@components/seo";
 import Layout from "@layout";
 import Header from '@layout/header/header-four'
-import Footer from '@layout/footer/footer-two'
+import Footer from "@layout/footer/footer-one";
 import Hero from '@containers/landing/hero'
-import Feature from '@containers/landing/feature'
-import Demos from '@containers/landing/demo-area'
-import InnerDemos from '@containers/landing/inner-demo-area'
-import CaseStudy from '@containers/landing/case-study'
-import HeaderLayout from '@containers/landing/header-layout'
-import BlogLayout from '@containers/landing/blog-layout'
-import Plugins from '@containers/landing/plugins'
-import ExtraFeature from '@containers/landing/extra-features'
+import HeroArea from '@containers/index-resolutions/hero-area'
+import FeaturesArea from '@containers/index-resolutions/features-area'
+import FeaturesAreaSimply from '@containers/index-infotechno/features-area'
+import FunFactArea from '@containers/index-resolutions/funfact-area'
+import SimulatorArea from '@containers/index-resolutions/simulator-area'
 
-const IndexPage = ({ location }) => (
+import AboutArea from '@containers/index-infotechno/about-area'
+
+import ServicesArea from '@containers/index-resolutions/services-area'
+import ContactArea from '@containers/global/contact-area/contact-three'
+// import ContactAreaForm from '@containers/index-appointment/contact-area'
+
+import TestimonialArea from '@containers/global/testimonial-area/section-one'
+import WhatsnewArea from '@containers/index-resolutions/whats-new-area'
+import CTAArea from "@containers/global/cta-area/section-one";
+import ClientsArea from '@containers/global/clients-area'
+
+
+const IndexServices = ({ location, pageFromCMS }) => (
 	<Layout location={location}>
-		<Seo />
+		<Seo title="Resolutions" />
 		<Header transparent />
 		<main className="site-wrapper-reveal">
 			<Hero />
-			<Feature />
-			<Demos />
-			<InnerDemos />
-			<CaseStudy />
-			<HeaderLayout />
-			<BlogLayout />
-			<Plugins />
-			<ExtraFeature />
+
+			<ClientsArea />
+				<FeaturesAreaSimply />
+
+			{/* <HeroArea /> */}
+			{/* <FeaturesArea /> */}
+			<SimulatorArea />
+			<AboutArea />
+			<ServicesArea />
+			{/* <FunFactArea /> */}
+			
+			<ContactArea />
+			<TestimonialArea />
+			<WhatsnewArea />
+			<CTAArea />
+			<ClientsArea />
+			{/* <ContactAreaForm /> */}
 		</main>
 		<Footer />
 	</Layout>
 )
 
-export default IndexPage
+export default IndexServices

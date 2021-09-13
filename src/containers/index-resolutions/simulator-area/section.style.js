@@ -1,11 +1,22 @@
 import styled from "styled-components";
 import { device } from "@theme";
+import BackgroundImage from "gatsby-background-image";
 
 // background: #F8F8F8;
-export const SectionWrap = styled.div`
+// background-color: #015e7a;
+export const SectionWrap = styled(BackgroundImage)`
     padding-top: 120px;
     padding-bottom: 105px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
+    background-size: auto !important;
+    background-position: bottom -10px right -30%;
+    
+    &:before,
+    &:after{
+        background-size: auto !important;
+        background-position: bottom -10px right -30%;
+    }
+
     @media ${device.medium}{
         padding-top: 80px;
         padding-bottom: 45px;

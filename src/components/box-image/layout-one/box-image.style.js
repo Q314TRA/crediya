@@ -98,7 +98,7 @@ export const BoxCircleBtn = styled(Link)`
     border-radius: 50%;
     font-size: 24px;
     color: #fff;
-    background: ${props => props.theme.colors.secondary};
+    background: #a96b70;
     .icon{
         color: #fff;
     }

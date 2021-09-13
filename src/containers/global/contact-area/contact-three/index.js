@@ -52,18 +52,18 @@ const ContactArea = ({
 				<Row alignitems="center">
 					<Col lg={6}>
 						<Box>
-							<Heading {...headingStyle}>Obtaining further information by <span>make a contact</span> with our experienced IT staffs.</Heading>
-							<Text {...descStyle}>We’re available for 8 hours a day! <br /> Contact to require a detailed analysis and assessment of your plan</Text>
+							<Heading {...headingStyle}>Obten más información comunicandote con nuestro equipo de asesores.</Heading>
+							<Text {...descStyle}>Estamos atentos a tu necesidades!</Text>
 						</Box>
 					</Col>
 					<Col lg={6}>
 						<ContactInfoBox>
 							<i className="icon fal fa-phone"></i>
-							<Heading {...titleStyle}>REACH OUT NOW!</Heading>
+							<Heading {...titleStyle}>ESCRIBENOS A HORA!</Heading>
 							{phone && (
 								<Heading><Anchor path="/" {...phoneAnchorStyle}>{phone}</Anchor></Heading>
 							)}
-							<Button {...btnStyle}>Contact Us</Button>
+							<Button {...btnStyle}>Contáctanos</Button>
 						</ContactInfoBox>
 					</Col>
 				</Row>

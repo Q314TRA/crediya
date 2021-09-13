@@ -37,7 +37,7 @@ const CTASection = ({
 			<Container>
 				<Row className="align-items-center text-lg-left text-center">
 					<Col xl={8} lg={7}>
-						<Heading {...heading}>Assess your business potentials and find opportunities <span>for bigger success </span> </Heading>
+						<Heading {...heading}>Queremos ayudarte a cumplir tus <span>sueños </span> </Heading>
 					</Col>
 					<Col xl={4} lg={5} className="text-center">
 						<Button
@@ -47,7 +47,7 @@ const CTASection = ({
 							iconposition="left"
 							icondistance="8px"
 							iconsize="16px">
-							Let 's talk
+							Contáctanos
                         </Button>
 						<Button
 							to="/"
@@ -56,7 +56,7 @@ const CTASection = ({
 							iconposition="left"
 							icondistance="8px"
 							iconsize="16px">
-							Get Info
+							Simula tu credito
                         </Button>
 					</Col>
 				</Row>
@@ -71,7 +71,7 @@ CTASection.propTypes = {
 
 CTASection.defaultProps = {
 	sectionStyle: {
-		bgColor: '#454545',
+		bgColor: '#015e7a',
 		bgposition: 'top 35% right -68px',
 		bgsize: 'auto',
 		pt: '80px',
@@ -105,6 +105,7 @@ CTASection.defaultProps = {
 	},
 	ButtonTwo: {
 		skin: 'secondary',
+		bgColor: '#a96b70',
 		m: '7px'
 	}
 }

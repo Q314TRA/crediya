@@ -38,7 +38,11 @@ const AboutArea = (props) => {
 								subtitle={subtitle}
 							/>
 							{desc && <Text {...descStyle}>{desc}</Text>}
-							{path && <Button to={path} {...btnStyle}>Join Us Now</Button>}
+							<Text {...descStyle}>
+								 Si, aún no sabes que tipo de crédito es mejor para ti, habla con uno de nuestros asesores;
+                                estaremos felices de ayudarte a encontrar la mejor opción para ti.
+							</Text>
+							{path && <Button to={path} {...btnStyle}>Habla con un asesor</Button>}
 						</LeftBox>
 					</Col>
 					<Col lg={5} ml="auto">

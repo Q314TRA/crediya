@@ -10,6 +10,11 @@
         "image": "./images/hero/slider-processing-slide-01-image-01.png"
     },
     {
+        "id": "processing-featured-content",
+        "title": "Queremos acompañarte a tomar <br/> la <span>la mejor decisión.</span>",
+        "subtitle": "NUESTROS SERVICIOS"
+    },
+    {
         "id": "processing-about-content",
         "title": "Share the joy of achieving <span>glorious moments</span> & climbed up the top.",
         "subtitle": "OUR COMPANY",

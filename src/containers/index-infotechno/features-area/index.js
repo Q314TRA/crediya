@@ -11,7 +11,7 @@ import { SectionWrap } from './features-area.style'
 const FeaturesArea = (props) => {
 	const featuredDataQuery = useStaticQuery(graphql`
         query infotechnoFeatureQueryData {
-            indexInfotechnoJson(id: {eq: "infotechno-featured-content"}) {
+            indexProcessingJson(id: {eq: "processing-featured-content"}) {
                 title
                 subtitle
             }
@@ -43,7 +43,7 @@ const FeaturesArea = (props) => {
             }
         }
     `);
-	const featureSecData = featuredDataQuery.indexInfotechnoJson;
+	const featureSecData = featuredDataQuery.indexProcessingJson;
 	const featureData = featuredDataQuery.allItServicesJson.edges;
 	const { featureBoxStyles, linkStyle, headingStyle } = props;
 	return (
@@ -63,7 +63,7 @@ const FeaturesArea = (props) => {
 							<FeatureBox
 								{...featureBoxStyles}
 								title={feature.node.title}
-								imageSrc={feature.node.icon.img}
+								// imageSrc={feature.node.icon.img}
 								desc={feature.node.excerpt}
 								path={`/it-service/${feature.node.fields.slug}`}
 							/>
@@ -72,7 +72,7 @@ const FeaturesArea = (props) => {
 				</Row>
 				<Row>
 					<Col lg={12}>
-						<Heading {...headingStyle}>Challenges are just opportunities in disguise. <Anchor {...linkStyle} path="/">Take the challenge!</Anchor></Heading>
+						<Heading {...headingStyle}>Quieres saber como funcionan los creditos y las tazas?. <Anchor {...linkStyle} path="/">Escribenos!</Anchor></Heading>
 					</Col>
 				</Row>
 			</Container>

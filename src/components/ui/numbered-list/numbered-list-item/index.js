@@ -11,10 +11,12 @@ export const NumberedListItem = ({ path, number, children }) => {
 				<TitleWrap>
 					<TitleInner>
 						<Title>{children}</Title>
-						<IconWrap>
-							<i className="icon icon-1 far fa-long-arrow-right"></i>
-							<i className="icon icon-2 far fa-long-arrow-right"></i>
-						</IconWrap>
+						{path && 
+							<IconWrap>
+								<i className="icon icon-1 far fa-long-arrow-right"></i>
+								<i className="icon icon-2 far fa-long-arrow-right"></i>
+							</IconWrap>
+						}
 					</TitleInner>
 				</TitleWrap>
 			</ItemAnchor>

@@ -53,7 +53,7 @@ const Footer = ({ copyrightStyle, ...props }) => {
 						<Col lg={4} sm={6}>
 							<FooterWidget responsive={{ medium: { mb: '31px' } }}>
 								<LogoWidget>
-									<StaticImage src="../../../assets/images/logo/dark-logo-160x48.png" alt="logo" width={160} height={48} />
+									<StaticImage src="../../../assets/images/logo/logo_crediya_black.png" alt="logo" width={160} height={48} />
 								</LogoWidget>
 								<TextWidget>
 									{address && <Text mb="10px">{address}</Text>}
@@ -65,36 +65,31 @@ const Footer = ({ copyrightStyle, ...props }) => {
 						</Col>
 						<Col lg={2} md={4} sm={6}>
 							<FooterWidget responsive={{ medium: { mb: '31px' } }}>
-								<Heading as="h6" mt="-3px" mb="20px">IT Services</Heading>
+								<Heading as="h6" mt="-3px" mb="20px">Servicios</Heading>
 								<FooterWidgetList>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Managed IT</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">IT Support</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">IT Consultancy</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Cloud Computing</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Cyber Security</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Asesoria financiera especializada</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Simulador de creditos</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Guia de entidades financieras</Anchor></li>
 								</FooterWidgetList>
 							</FooterWidget>
 						</Col>
 						<Col lg={2} md={4} sm={6}>
 							<FooterWidget responsive={{ medium: { mb: '27px' } }}>
-								<Heading as="h6" mt="-3px" mb="20px">Quick links</Heading>
+								<Heading as="h6" mt="-3px" mb="20px">Financieras</Heading>
 								<FooterWidgetList>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Pick up locations</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Terms of Payment</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Privacy Policy</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Where to Find Us</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Sumate a nuestra plataforma</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Politicas de privacidad</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Terminos y condicioens</Anchor></li>
 								</FooterWidgetList>
 							</FooterWidget>
 						</Col>
 						<Col lg={2} md={4} sm={6}>
 							<FooterWidget>
-								<Heading as="h6" mt="-3px" mb="20px">Support</Heading>
+								<Heading as="h6" mt="-3px" mb="20px">Entérate</Heading>
 								<FooterWidgetList>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Forum Support</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Help &amp; FAQ</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Contact Us</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Pricing and plans</Anchor></li>
-									<li><Anchor path="/" color="textColor" hoverstyle="2">Cookies Policy</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Blog</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Preguntas frecuentes</Anchor></li>
+									<li><Anchor path="/" color="textColor" hoverstyle="2">Contáctanos</Anchor></li>
 								</FooterWidgetList>
 							</FooterWidget>
 						</Col>

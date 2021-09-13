@@ -15,22 +15,22 @@
     },
     {
         "id": "infotechno-about-content",
-        "title": "We’ve been thriving in <span>38 years</span>",
-        "subtitle": "OUR COMPANY",
-        "desc": "Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.",
+        "title": "Queremos ayudarte a <span>cumplir tus sueños</span>",
+        "subtitle": "Nuestra empresa",
+        "desc": "Nuestra plataforma te ayudará a elegir la mejor taza, entre todas las financieras disponibles; seleccionando para ti un listado con las mejores opciones de acuerdo al monto que necesites, el tipo de crédito y  probabilidad de  aprobación.",
         "path": "/about-us",
         "features": [
             {
-                "text": "How we can help your business?",
-                "path": "/about-us"
+                "text": "Simula tu credito",
+                "path":"/"
             },
             {
-                "text": "Why become our partner?",
-                "path": "/about-us"
+                "text": "Selecciona una financiera",
+                "path":""
             },
             {
-                "text": "What are the best of Mitech?",
-                "path": "/about-us"
+                "text": "Uno de nuestros asesores te ayudara con toda la documentación necesaria",
+                "path":""
             }
         ]
     },

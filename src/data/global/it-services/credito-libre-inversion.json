@@ -1,14 +1,16 @@
 {
     "id": "credito-libre-inversion",
-    "title": "Credito de libre inversión",
+    "title": "Libre inversión",
     "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "tagline": "Reach out to the world’s most reliable IT services.",
+    "image": "../../images/box-image/image-03-480x298.jpg",
     "icon": {
-        "svg": "../../images/icons/linea-basic-gear.svg",
+        "svg": "../../images/icons/linea-ecommerce-money.svg",
         "img": "../../images/icons/icon-04-100x108.png",
         "img_two": "../../images/icons/icon-01-100x98.png",
         "img_hover": "../../images/icons/icon-01-hover-100x98.png"
     },
-    "is_featured": true,
+    "is_featured": false,
     "banner_image": "../../images/banner/credito_hipotecario.jpg",
     "introText": {
         "heading": "Mitech specializes in <span>technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc.",

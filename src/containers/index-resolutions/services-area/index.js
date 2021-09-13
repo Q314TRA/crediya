@@ -12,7 +12,7 @@ const ServicesArea = ({ sectionTitleStyle, servicBoxStyle }) => {
                 title
                 subtitle
             }
-            allItServicesJson(sort: {order: DESC, fields: id}, limit: 8) {
+            allItServicesJson(sort: {order: DESC, fields: id}, filter: {is_featured: {eq: false}}, limit: 8) {
                 edges {
                     node {
                         fields {

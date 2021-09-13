@@ -10,30 +10,31 @@
     },
     {
         "id": "resolutions-services-content",
-        "title": "For your very specific industry, <br/> we have <span>highly-tailored IT solutions.</span>",
-        "subtitle": "INDUSTRIES WE SERVE"
+        "title": "Contamos con más de <br/> <span> 20 financieras</span> a tu disposición.",
+        
+        "subtitle": "TIPOS DE CREDITOS"
     },
     {
         "id": "resolutions-new-content",
         "list": [
             {
                 "icon": "./images/icons/icon-07-60x60.png",
-                "title": "Quality Assurance System",
+                "title": "Asesoria gratuita",
                 "desc": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
             },
             {
                 "icon": "./images/icons/icon-08-60x60.png",
-                "title": "Accurate Testing Processes",
-                "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
-            },
-            {
-                "icon": "./images/icons/icon-09-60x60.png",
-                "title": "Smart API Generation",
+                "title": "Financieras certificadas",
                 "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
             },
             {
                 "icon": "./images/icons/icon-10-60x60.png",
-                "title": "Infrastructure Integration Technology",
+                "title": "Informacion actualizada",
+                "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+            },
+            {
+                "icon": "./images/icons/icon-10-60x60.png",
+                "title": "Acompañamiento gratuito",
                 "desc": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
             }
         ] 

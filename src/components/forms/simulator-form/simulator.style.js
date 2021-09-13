@@ -5,8 +5,6 @@ import { device } from "@theme";
 export const SectionWrap = styled(BackgroundImage)`
     padding-top: 120px;
     padding-bottom: 120px;
-    background-repeat: no-repeat;
-    
     background-color: #015e7a;
     background-size: auto !important;
     background-position: top right;
@@ -18,17 +16,5 @@ export const SectionWrap = styled(BackgroundImage)`
     @media ${device.medium}{
         padding-top: 80px;
         padding-bottom: 80px;
-    }
-`;
-
-export const ContactInfoBox = styled.div`
-    text-align: center;
-    @media ${device.medium}{
-        margin-top: 45px;
-    }
-    .icon{
-        font-size: 40px;
-        color: #fff;
-        margin-bottom: 14px;
     }
 `;

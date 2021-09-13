@@ -5,18 +5,18 @@
  */
 
 module.exports = {
-	pathPrefix: `/mitech`,
+	pathPrefix: `/crediya`,
 	siteMetadata: {
-		title: "React Gatsby Technology & Blog Template",
-		titleTemplate: `Mitech`,
-		description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
-		author: `@HasThemes`,
-		twitterUsername: `@HasThemes`,
+		title: "Plataforma para busqueda de creditos",
+		titleTemplate: `Crediya`,
+		description: `Compara precios de financieras y encuentra las merjores tazas de interes. Ahorra tiempo y dinero a la hora de conseguir tu credito, gracias a nuestro catalogos de financieras.`,
+		author: `@crediya`,
+		twitterUsername: `@crediya`,
 		image: 'landing.png',
 		siteUrl: 'https://mitech.gatsbydemo.hasthemes.com/',
 		canonical: "https://mitech.gatsbydemo.hasthemes.com/",
 		getform: "https://getform.io/f/22b43bd4-29a7-4795-ba95-6abfe8bf1f39",
-		copyright: "Mitech. <a href='https://example.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+		copyright: "Crediya. <a href='https://crediya.app/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
 		siteLanguage: "en",
 		social: {
 			facebook: "https://www.facebook.com",
@@ -25,10 +25,10 @@ module.exports = {
 			linkedin: "https://www.linkedin.com"
 		},
 		contact: {
-			phone: '190068668',
+			phone: '(+57) 312 6178 969',
 			address: "58 Howard Street #2 San Francisco, CA 941",
-			email: 'hello@mitech.com',
-			website: "https://example.com/",
+			email: 'contactanos@crediya.app',
+			website: "https://crediya.app/",
 			rating: "4.9",
 			customers: "700",
 			clients: "3200",

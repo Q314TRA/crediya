@@ -1,40 +1,40 @@
 {
-    "id": "highly-professional-service",
-    "title": "Highly Professional Staffs",
+    "id": "credito-tarjeta",
+    "title": "Tarjetas de credito",
+    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "image": "../../images/box-image/image-03-480x298.jpg",
     "tagline": "Reach out to the world’s most reliable IT services.",
-    "excerpt": "Having obtained the official & formal training in IT technology and technical fields, our staffs know best.",
-    "image": "../../images/box-image/image-06-480x298.jpg",
     "icon": {
-        "svg": "../../images/icons/linea-basic-spread-text-bookmark.svg",
-        "img": "../../images/icons/icon-05-100x108.png",
-        "img_two": "../../images/icons/icon-06-100x98.png",
-        "img_hover": "../../images/icons/icon-06-hover-100x98.png"
+        "svg": "../../images/icons/linea-basic-heart.svg",
+        "img": "../../images/icons/icon-04-100x108.png",
+        "img_two": "../../images/icons/icon-01-100x98.png",
+        "img_hover": "../../images/icons/icon-01-hover-100x98.png"
     },
     "is_featured": false,
-    "banner_image": "../../images/banner/banner-04.jpg",
+    "banner_image": "../../images/banner/credito_hipotecario.jpg",
     "introText": {
         "heading": "Mitech specializes in <span>technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc.",
         "text": "We’re available for 8 hours a day! <br/>Contact to require a detailed analysis and assessment of your plan."
     },
     "faq": [
         {
-            "id": "highly-service-faq-1",
-            "title": "New multiple site connectivity",
+            "id": "caracteristicas",
+            "title": "Caracteristicas",
             "desc": "We use a newly developed technology to connect sites that are based on different types of servers and networks, SiteConnect, which helps to reduce the misinterpretation of signals as well as the loss of data during transfering."
         },
         {
-            "id": "highly-service-faq-2",
-            "title": "IT Security & Software",
+            "id": "beneficios",
+            "title": "Beneficios",
             "desc": "To keep your systems, your devices, and network stay secure, we have developed a new program that limits the access of suspicious objects or people and authenticate all logins to the system."
         },
         {
-            "id": "highly-service-faq-3",
-            "title": "Weak hosted capability",
+            "id": "requisitos",
+            "title": "Requisitos",
             "desc": "Some hosts are unaware of the potential risks as well as security loopholes in their system. By detecting these errors and taking prompt actions on improving firewalls, we can upgrade the system security."
         },
         {
-            "id": "highly-service-faq-4",
-            "title": "Build internal network",
+            "id": "tasas",
+            "title": "Tasas",
             "desc": "The internal network is essential for all companies and corporations, especially for those working in IT sector. To avoid possible risks when sharing internal confidential files and documentation to an external receiver, internal network must be strong."
         }
     ],
@@ -43,31 +43,31 @@
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },
     "features": {
-        "title": "Prominent IT Security Services",
+        "title": "Financieras que pueden ayudarte",
         "items": [
             {
                 "id": "highly-professional-features-1",
                 "icon": "../../images/icons/icon-07-60x60.png",
-                "title": "Mitech Management Systems",
-                "desc": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
+                "title": "Banco Popular",
+                "desc": "El Banco Popular es una entidad financiera colombiana perteneciente al Grupo Aval Acciones y Valores, con sede principal en la ciudad de Bogotá que lleva una trayectoria de más de sesenta años."
             },
             {
                 "id": "highly-professional-features-2",
                 "icon": "../../images/icons/icon-08-60x60.png",
-                "title": "Reliable Multi-function Technology",
-                "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+                "title": "AV Villa",
+                "desc": "Banco AV Villas es un banco de Colombia que fue fundado en 1972 como Corporación de Ahorro y Vivienda Las Villas. En 1997 se convirtió en una subsidiaria de Grupo Aval Acciones y Valores."
             },
             {
                 "id": "highly-professional-features-3",
                 "icon": "../../images/icons/icon-09-60x60.png",
-                "title": "Highly Professional Staffs",
-                "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+                "title": "BBVA Colombia",
+                "desc": "BBVA es una filial bancaria colombiana, operada por la matriz española BBVA."
             },
             {
                 "id": "highly-professional-features-4",
                 "icon": "../../images/icons/icon-10-60x60.png",
-                "title": "Infrastructure Integration Technology",
-                "desc": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
+                "title": "Fondo Nacional del Ahorro",
+                "desc": "El Fondo Nacional de Ahorro es una institución bancaria colombiana creada, a través del Decreto Extraordinario 3118 de 1968, para administrar las cesantías de los empleados públicos y trabajadores oficiales."
             }
         ]
     }
